@@ -87,3 +87,21 @@ padding: 8px 24px;
     height: 58px;
 }    
 }
+/* ABOUT THE GAME */
+.about-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+}
+@media only screen and (min-width: 1440px) {
+.about-container{
+    flex-direction: row;
+justify-content: center;
+align-items: end;
+    gap: 238px;
+} 
+.about-wrapper{
+    width: 500px;
+}
+}
