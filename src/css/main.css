@@ -105,3 +105,35 @@ align-items: end;
     width: 500px;
 }
 }
+/* A WORLD FULL OF PUZZLE CHALLENGES */
+.world-section{
+    background: #fbb820;
+}
+.world-list{
+    margin-top: 32px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+.world-item{
+border: 1px solid #ffe174;
+    border-radius: 10px;
+    padding: 16px;
+    width: 343px;
+    height: auto;
+    background: #ffc749;
+}
+@media only screen and (min-width: 1440px) {
+.world-list{
+    margin-top: 78px;
+    flex-direction: row;
+    align-items: start;
+    gap: 84px;
+}
+.world-item{
+    width: 322px;
+} 
+.w2{
+width: 429px;
+}
+}
