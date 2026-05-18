@@ -190,3 +190,131 @@ gap: 24px;
     gap: 8px;
 }
 }
+/* FAQ */
+.faq-acc {
+    display: flex;
+    flex-direction: column;
+    width: 343px;
+    margin: 40px auto 0;
+    gap: 12px;
+
+}
+
+.faq-acc-el {
+    position: relative;
+    transition: margin-bottom 0.3s ease;
+    border-bottom: 2px solid #d7def0;
+    padding: 24px 0;
+}
+.faq-acc-el:first-child{
+border-top: 2px solid #d7def0;
+}
+.faq-acc-el-title {
+    margin-bottom: 0;
+}
+
+.faq-acc-el-trigger {
+    border: none;
+    background: inherit;
+    width: 343px;
+font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.5;
+    letter-spacing: 0em;
+    color: #0d0b1c;
+    padding: 0;
+    margin-bottom: 0;
+    cursor: pointer;
+    box-sizing: border-box;
+    text-align: left;
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    gap: 20px;
+}
+
+
+.faq-acc-arr {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: none;
+    transition: transform 0.3s ease;
+    border: none;
+    background-color: inherit;
+
+}
+
+.faq-acc-arr.is-hidden {
+    display: none;
+}
+
+.faq-acc-el.open .faq-acc-arr {
+    transform: rotate(45deg);
+}
+
+.faq-acc-el-descr-frame {
+    background: inherit;
+    width: 343px;
+        color: rgba(60, 60, 67, 0.85);
+            font-size: 15px;
+    text-align: left;
+    overflow: hidden;
+    max-height: 0;
+    opacity: 0;
+    transition: max-height 0.3s ease, opacity 0.3s ease, border-bottom 0.3s ease;
+}
+
+.faq-acc-el.js-enabled .faq-acc-el-descr-frame {
+    visibility: hidden;
+}
+
+
+.faq-acc-el.open .faq-acc-el-descr-frame {
+    visibility: visible;
+    opacity: 1;
+    border: none;
+    background: none;
+    color: rgba(60, 60, 67, 0.85);
+    font-size: 15px;
+    padding-top: 16px;
+    width: 343px;
+    max-height: 500px;
+}
+.faq-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+}
+@media only screen and (min-width: 1440px) {
+    .faq-container {
+  flex-direction: row-reverse;
+  justify-content: center;
+  gap: 78px;
+    }
+.faq-wrapper{
+    width: 578px;
+}
+    .faq-acc {
+        width: 578px;
+    }
+
+    .faq-acc-el {
+        width: 578px;
+    }
+
+    .faq-acc-el-trigger {
+        width: 578px;
+    }
+
+    .faq-acc-el-descr-frame {
+        width: 578px;
+    }
+
+    .faq-acc-el.open .faq-acc-el-descr-frame {
+    width: 578px;
+
+    }
+}
