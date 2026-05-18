@@ -2,55 +2,62 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/stonebank/favicon.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vanilla App Template</title>
+      <link rel="icon" type="image/png" href="/stonebank/favicon.png" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+        integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link
+          href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+          rel="stylesheet">
+<title>Skull Treasures Match 3 Puzzle | Adventure Match-3 Game</title>
+<meta name="description"
+  content="Skull Treasures Match 3 Puzzle is an exciting match-3 adventure with over 1000 levels, powerful boosters, colorful puzzles and offline gameplay.">
+
+<meta name="keywords"
+  content="match 3 puzzle game, treasure match 3 game, skull puzzle game, offline match 3 game, puzzle adventure game">
+
+<meta name="robots" content="index, follow">
     <script type="module" crossorigin src="/stonebank/index.js"></script>
-    <link rel="stylesheet" crossorigin href="/stonebank/assets/styles-X9THPhCB.css">
+    <link rel="stylesheet" crossorigin href="/stonebank/assets/styles-DtG2uySZ.css">
   </head>
   <body>
-    <header class="header">
-  <div class="container">
-    <nav class="nav">
-      <a class="nav-logo" href="./index.html" aria-label="Site logo">
-        <svg class="nav-logo-icon" width="100" height="30">
-          <use href="{=$icon-path}"></use>
-        </svg>
-      </a>
-      <ul class="nav-list">
-        <li class="nav-item">
-          <a class="nav-link {=$highlight-act}" href="./page-2.html">Page 2</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link {=$highlight-curr}" href="./page-3.html">Page 3</a>
-        </li>
-      </ul>
-    </nav>
-  </div>
-</header>
-
+    
 
     <main>
       <!-- Loads the specified .html file -->
-      
+      <section class="home-section" id="home">
+    <div class="container home-container">
+       <h1 class="home-title">Match, Discover, and Unlock Hidden Treasures</h1>
+       <ul class="home-list">
+        <li class="home-item">
+            <p>So you jump into Skull Treasures and boom - you're basically surrounded by all this mysterious ancient stuff. Like,
+            symbols and old artifacts and treasure... honestly, just everything you'd expect from a pirate-themed puzzle game.</p>
+        </li>
+        <li class="home-item h2">
+            <p>Swap colorful pieces, create powerful combinations, and clear the board as you progress through hundreds of challenging
+            levels. Each match brings you closer to uncovering secrets buried deep within the puzzle adventure.</p>
+        </li>
+        <li class="home-item h3">
+            <p>Get ready to dive into a world where you'll need some strategy, good timing, and yeah - some pretty clever combos if you
+            want to actually win.</p>
+        </li>
+       </ul>
+       <a class="home-link" href="https://play.google.com/store/apps/details?id=com.skulltreasures.match3&hl=en&gl=us">
+        <p>Play</p>
+       </a>
+        <picture>
+            <source srcset="/stonebank/assets/desk-CbsgBe5q.png 1x, /stonebank/assets/desk@2x-B-Iok9cq.png 2x" media="(min-width: 1440px)" />
+            <source srcset="/stonebank/assets/mob-DIQAQZjw.png 1x, /stonebank/assets/mob@2x-DIFe0he7.png 2x" media="(max-width: 1439px)" />
+            <img src="/stonebank/assets/mob-DIQAQZjw.png" alt="Skull Treasures Match 3 Puzzle" loading="lazy" />
+        </picture>    
+    </div>
+</section>
     </main>
 
-    <footer class="footer">
-  <div class="container">
-    <p class="footer-desc">
-      Made with ✨ by
-      <a
-        class="footer-link"
-        href="https://goit.global/ua/"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        GoIT team
-      </a>
-    </p>
-  </div>
-</footer>
-
+    
 
   </body>
 </html>
