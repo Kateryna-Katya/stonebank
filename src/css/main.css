@@ -137,3 +137,24 @@ border: 1px solid #ffe174;
 width: 429px;
 }
 }
+/* POWERFUL BOOSTERS AND BONUSES */
+.my-swiper{
+    margin-top: 32px;
+}
+.my-swiper .swiper-slide{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    border-radius: 10px;
+        padding: 16px;
+        width: 292px;
+        height: 273px;
+background: #884254;
+color: #fff;
+}
+@media only screen and (min-width: 1440px) {
+.my-swiper .swiper-wrapper{
+    gap: 24px;
+}
+}
