@@ -1,0 +1,73 @@
+@import url('./styles.css');
+
+.background {
+font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.01em;
+    color: #71717a;
+    text-align: left;
+}
+
+.privacy-title {
+    margin-top: 70px;
+    margin-bottom: 30px;
+font-family: "Roboto", sans-serif;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 1.3;
+    letter-spacing: 0em;
+    color: #090913;
+}
+
+.text-container {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.policy-subtitle {
+font-family: "Inter", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.3;
+    letter-spacing: 0em;
+    color: #090913;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.policy-link {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 30px;
+}
+
+.policy-list {
+    list-style-type: disc;
+    padding-left: 30px;
+
+}
+
+.policy-number {
+    padding-left: 20px;
+}
+
+.underline {
+    text-decoration: underline;
+    text-decoration-skip-ink: none;
+
+}
+
+.text {
+    margin-top: 20px;
+}
+
+
+
+.policy-span {
+    font-weight: 700;
+}
